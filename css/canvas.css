@@ -80,9 +80,12 @@ h1{
   border-bottom: 300px solid #800000;
 }
 .flash{
-  border-top: 100px solid black;
+  border-top: 100px solid transparent;
 }
 .rotate{
   border-bottom: 100px solid #800000;
   border-left: 150px solid transparent;
+}
+.moveDown{
+  padding-top: 150px;
 }
