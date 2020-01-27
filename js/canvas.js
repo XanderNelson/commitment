@@ -27,4 +27,7 @@ $(document).ready(function(){
   $("#triSix").click(function(){
     $("#triSix").toggleClass("rotate");
   });
+  $("#triSeven").click(function(){
+    $("#triSeven").toggleClass("moveDown");
+  });
 });
