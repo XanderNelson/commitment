@@ -25,6 +25,6 @@ $(document).ready(function(){
     setInterval(triangleflash, 200);
   });
   $("#triSix").click(function(){
-    $("#triSix").toggleClass("");
+    $("#triSix").toggleClass("rotate");
   });
 });
