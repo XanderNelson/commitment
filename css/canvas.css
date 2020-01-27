@@ -96,6 +96,6 @@ h1{
 .topLeft{
   border-left: 0px solid transparent;
   border-bottom: 0px solid #800000;
-  border-top: 100px solid red;
+  border-top: 100px solid #800000;
   border-right: 100px solid transparent;
 }
