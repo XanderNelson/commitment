@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  // window.setInterval(switchBack, 800);
+  window.setInterval(switchBack, 800);
 
 
   function switchBack(){
@@ -35,5 +35,8 @@ $(document).ready(function(){
   });
   $("#triSeven").click(function(){
     $("#triSeven").toggleClass("moveDown");
+  });
+  $("#triEight").click(function(){
+    $("#triEight").toggleClass("");
   });
 });
