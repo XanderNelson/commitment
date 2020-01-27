@@ -37,6 +37,6 @@ $(document).ready(function(){
     $("#triSeven").toggleClass("moveDown");
   });
   $("#triEight").click(function(){
-    $("#triEight").toggleClass("");
+    $("#triEight").toggleClass("topLeft");
   });
 });
