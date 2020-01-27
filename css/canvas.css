@@ -4,14 +4,14 @@ body{
   background-image: -webkit-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
   background-image: -o-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
   background-image: linear-gradient(to right, transparent 50%, rgba(255,255,255,.5) 50%);;
-  background-size: 10px 10px;
+  background-size: 20px 20px;
 }
 .move{
   background-color:#800000;
   background-image: -webkit-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
   background-image: -o-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
   background-image: linear-gradient(to left, transparent 50%, rgba(255,255,255,.5) 50%);;
-  background-size: 10px 10px;
+  background-size: 20px 20px;
 }
 h1{
   color: #800000;
@@ -20,4 +20,7 @@ h1{
   vertical-align: middle;
   font-weight: 900;
   opacity: .2;
+}
+.letterMove{
+  padding-top: 40px;
 }
