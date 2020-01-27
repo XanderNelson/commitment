@@ -70,6 +70,8 @@ h1{
   opacity: .5;
 }
 .turn{
+  padding-bottom: 150px;
+  border-top: 0px solid #800000;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 100px solid #800000;
