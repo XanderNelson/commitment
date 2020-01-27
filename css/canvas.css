@@ -78,5 +78,8 @@ h1{
 }
 .size{
   border-bottom: 300px solid #800000;
+}
+.flash{
+  border-top: 100px solid black;
 
 }

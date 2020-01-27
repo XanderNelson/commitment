@@ -1,10 +1,13 @@
 $(document).ready(function(){
-  window.setInterval(switchBack, 800);
+  // window.setInterval(switchBack, 800);
 
 
   function switchBack(){
     $("body").toggleClass("move");
     $("h1").toggleClass("letterMove");
+  }
+  function triangleflash(){
+      $("#triFive").toggleClass("flash");
   }
   $("#triOne").click(function(){
     $("#triOne").toggleClass("color");
@@ -19,6 +22,6 @@ $(document).ready(function(){
     $("#triFour").toggleClass("size");
   });
   $("#triFive").click(function(){
-    $("#triFive").toggleClass("");
+    setInterval(triangleflash, 200);
   });
 });
