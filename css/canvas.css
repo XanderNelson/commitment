@@ -61,3 +61,7 @@ h1{
   border-top: 100px solid black;
   opacity: .5;
 }
+.opac{
+  border-top: 100px solid #800000;
+  opacity: .5;
+}

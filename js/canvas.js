@@ -10,6 +10,6 @@ $(document).ready(function(){
     $("#triOne").toggleClass("color");
   });
   $("#triTwo").click(function(){
-    $("#triTwo").toggleClass("color");
+    $("#triTwo").toggleClass("opac");
   });
 });
