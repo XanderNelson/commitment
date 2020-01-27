@@ -4,5 +4,12 @@ body{
   background-image: -webkit-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
   background-image: -o-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
   background-image: linear-gradient(to right, transparent 50%, rgba(255,255,255,.5) 50%);;
-  background-size: 50px 50px;
+  background-size: 10px 10px;
+}
+h1{
+  color: white;
+  font-size: 800%;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 800;
 }
