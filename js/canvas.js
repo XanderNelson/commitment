@@ -6,14 +6,14 @@ $(document).ready(function(){
     $("body").toggleClass("move");
     $("h1").toggleClass("letterMove");
   }
-  function triangleflash(){
-    if ($("#triFive").hasClass("flash")){
-      $("#triFive").removeClass("flash");
-    }
-    else{
-      $("#triFive").addClass("flash");
-    }
-  }
+  // function triangleflash(){
+  //   if ($("#triFive").hasClass("flash")){
+  //     $("#triFive").addClass("flash");
+  //   }
+  //   else{
+  //     $("#triFive").removeClass("flash");
+  //   }
+  // }
 
   $("#triOne").click(function(){
     $("#triOne").toggleClass("color");
