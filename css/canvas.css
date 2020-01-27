@@ -80,7 +80,11 @@ h1{
   border-bottom: 300px solid #800000;
 }
 .flash{
-  border-top: 100px solid transparent;
+  /* border-top: 100px solid transparent; */
+  width: 200px;
+  height: 100px;
+  background: #800000;
+  border-radius: 100px / 50px;
 }
 .rotate{
   border-bottom: 100px solid #800000;

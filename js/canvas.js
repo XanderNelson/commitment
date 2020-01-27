@@ -28,7 +28,7 @@ $(document).ready(function(){
     $("#triFour").toggleClass("size");
   });
   $("#triFive").click(function(){
-    setInterval(triangleflash, 200);
+    $("#triFive").toggleClass("flash");
   });
   $("#triSix").click(function(){
     $("#triSix").toggleClass("rotate");
