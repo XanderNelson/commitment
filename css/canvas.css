@@ -59,7 +59,7 @@ h1{
 }
 .color{
   border-top: 100px solid black;
-  opacity: .5;
+  /* opacity: .5; */
 }
 .opac{
   border-top: 100px solid #800000;
