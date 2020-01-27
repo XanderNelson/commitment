@@ -6,4 +6,7 @@ $(document).ready(function(){
     $("body").toggleClass("move");
     $("h1").toggleClass("letterMove");
   }
+  $("#triOne").click(function(){
+    $("#triOne").toggleClass("color");
+  });
 });
