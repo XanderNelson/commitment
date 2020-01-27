@@ -16,6 +16,8 @@ body{
   background-image: -o-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
   background-image: linear-gradient(to left, transparent 50%, rgba(255,255,255,.5) 50%);;
   background-size: 10px 10px;
+  transition: .2s;
+
 }
 
 h1{
@@ -45,7 +47,7 @@ h1{
       height: 0;
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
-      border-bottom: 100px solid red;
+      border-bottom: 100px solid black;
     }
 
 .triDown{
@@ -53,5 +55,5 @@ h1{
       height: 0;
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
-      border-top: 100px solid red;
+      border-top: 100px solid black;
 }
