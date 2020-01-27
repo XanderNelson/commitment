@@ -9,4 +9,7 @@ $(document).ready(function(){
   $("#triOne").click(function(){
     $("#triOne").toggleClass("color");
   });
+  $("#triTwo").click(function(){
+    $("#triTwo").toggleClass("color");
+  });
 });
