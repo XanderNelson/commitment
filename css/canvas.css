@@ -1,0 +1,8 @@
+body{
+  /*https://cssgradient.io/blog/gradient-patterns/  */
+  background-color: #00ccd6;
+  background-image: -webkit-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
+  background-image: -o-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
+  background-image: linear-gradient(to right, transparent 50%, rgba(255,255,255,.5) 50%);;
+  background-size: 50px 50px;
+}
