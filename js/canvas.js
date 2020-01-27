@@ -7,8 +7,14 @@ $(document).ready(function(){
     $("h1").toggleClass("letterMove");
   }
   function triangleflash(){
-      $("#triFive").toggleClass("flash");
+    if ($("#triFive").hasClass("flash")){
+      $("#triFive").removeClass("flash");
+    }
+    else{
+      $("#triFive").addClass("flash");
+    }
   }
+
   $("#triOne").click(function(){
     $("#triOne").toggleClass("color");
   });
