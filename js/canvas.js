@@ -18,4 +18,7 @@ $(document).ready(function(){
   $("#triFour").click(function(){
     $("#triFour").toggleClass("size");
   });
+  $("#triFive").click(function(){
+    $("#triFive").toggleClass("");
+  });
 });
