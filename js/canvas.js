@@ -12,4 +12,7 @@ $(document).ready(function(){
   $("#triTwo").click(function(){
     $("#triTwo").toggleClass("opac");
   });
+  $("#triThree").click(function(){
+    $("#triThree").toggleClass("turn");
+  });
 });
