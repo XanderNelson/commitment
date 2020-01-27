@@ -27,7 +27,9 @@ h1{
   opacity: .2;
   transition: .2s;
 }
-
+#mainHeader{
+  height: 400px;
+}
 .letterMove{
   opacity: .2;
   font-size: 1100%;
