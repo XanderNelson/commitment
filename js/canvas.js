@@ -39,4 +39,7 @@ $(document).ready(function(){
   $("#triEight").click(function(){
     $("#triEight").toggleClass("topLeft");
   });
+  $("#triNine").click(function(){
+    $("#triNine").toggleClass("");
+  });
 });
