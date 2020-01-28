@@ -30,6 +30,8 @@ h1{
   transition: .2s;
 }
 h2{
+  padding-left: 2%;
+  padding-right: 2%;
   display: inline;
   color: #800000;
   font-size: 800%;
