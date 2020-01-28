@@ -48,6 +48,7 @@ $(document).ready(function(){
     $("#triTen").toggleClass("ten");
   });
   $("#grey").click(function(){
+    $("body").removeClass("move");
     $("h1").css("color", "black");
     $("h2").css("color", "#800000");
     $(this).css("color", "black");
@@ -62,6 +63,7 @@ $(document).ready(function(){
     interval = setInterval(switchBack, 800);
   });
   $("#blue").click(function(){
+    $("body").removeClass("move");
     $("h1").css("color", "blue");
     $("h2").css("color", "#800000");
     $(this).css("color", "blue");
