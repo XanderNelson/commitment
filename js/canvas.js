@@ -48,6 +48,7 @@ $(document).ready(function(){
     $("#triTen").toggleClass("ten");
   });
   $("#grey").click(function(){
+    $("#triOne, #triEleven").addClass("greenTri");
     $("body").addClass("grey");
     $("body").removeClass("red");
     $("body").removeClass("blue");
