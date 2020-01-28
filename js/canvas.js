@@ -61,9 +61,13 @@ $(document).ready(function(){
   $("#red").click(function(){
     window.setInterval(switchBackRed, 800);
     $("body").addClass("redBod");
+    $("body").removeClass("greyBod, blueBod");
+
   });
   $("#blue").click(function(){
     $("body").addClass("blueBod");
+    $("body").removeClass("redBod, greyBod");
+
   });
 
 });
