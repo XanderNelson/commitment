@@ -1,7 +1,7 @@
 $(document).ready(function(){
   // window.setInterval(switchBack, 800);
   var interval = setInterval(switchBack, 800);
-  window.interval;
+  // window.interval;
 
 
   function switchBack(){
@@ -58,7 +58,7 @@ $(document).ready(function(){
     $("h2").css("color", "#800000");
     $(this).css("color", "#800000");
     $("body").addClass("move");
-    window.interval;
+    // window.interval;
   });
   $("#blue").click(function(){
     $("h1").css("color", "blue");
