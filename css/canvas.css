@@ -1,5 +1,6 @@
 body{
   /*https://cssgradient.io/blog/gradient-patterns/  */
+  cursor: crosshair;
   background-color:#800000;
   background-image: -webkit-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
   background-image: -o-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
