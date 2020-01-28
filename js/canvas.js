@@ -45,16 +45,14 @@ $(document).ready(function(){
   $("#triTen").click(function(){
     $("#triTen").toggleClass("ten");
   });
-  // $("#grey").click(function(){
-  //   $("body").addClass("greyBod");
-  //   $("body").removeClass("redBod, blueBod");
-  // });
-  // $("#red").click(function(){
-  //   window.setInterval(switchBack, 800);
-  //   $("body").addClass("redBod");
-  // });
-  // $("#blue").click(function(){
-  //   $("body").addClass("blueBod");
-  // });
+  $("#grey").click(function(){
+    $("h1").addClass("greyBod");
+  });
+  $("#red").click(function(){
+    $("body").addClass("redBod");
+  });
+  $("#blue").click(function(){
+    $("body").addClass("blueBod");
+  });
 
 });

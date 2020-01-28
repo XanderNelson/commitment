@@ -26,7 +26,7 @@ body{
   background-size: 10px 10px;
   transition: .2s;
 }
-.moveGrey{
+/* .moveGrey{
   background-color:black;
   background-image: -webkit-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
   background-image: -o-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
@@ -41,7 +41,7 @@ body{
   background-image: linear-gradient(to left, transparent 50%, rgba(255,255,255,.5) 50%);;
   background-size: 10px 10px;
   transition: .2s;
-}
+} */
 
 h1{
   color: #800000;
@@ -62,6 +62,15 @@ h2{
   vertical-align: middle;
   font-weight: 900;
   opacity: .3;
+}
+.grey{
+
+}
+.red{
+
+}
+.blue{
+  
 }
 #colors{
   padding-top: 175px;
