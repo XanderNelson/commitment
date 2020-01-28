@@ -57,7 +57,7 @@ $(document).ready(function(){
     $("body").removeClass("blue");
     $("body").removeClass("move");
     $("h1").css("color", "black");
-    $("h2").css("color", "#800000");
+    // $("h2").css("color", "#800000");
     $(this).css("color", "black");
     clearInterval(interval);
   });
@@ -75,6 +75,7 @@ $(document).ready(function(){
     interval = setInterval(switchBack, 800);
   });
   $("#blue").click(function(){
+
     $(".triDown").removeClass("greenTriDown");
     $(".triUp").removeClass("greenTri");
     $(".triDown").addClass("greenPinkDown");
@@ -84,7 +85,9 @@ $(document).ready(function(){
     $("body").removeClass("red");
     $("body").removeClass("move");
     $("h1").css("color", "blue");
-    $("h2").css("color", "#800000");
+    // $("h2").css("color", "#800000");
+    $("#grey").css("color", "#ff66cc");
+    $("#red").css("color", "#ff66cc");
     $(this).css("color", "blue");
     clearInterval(interval);
   });
