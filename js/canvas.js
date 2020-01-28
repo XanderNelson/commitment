@@ -59,6 +59,8 @@ $(document).ready(function(){
   });
   $("#red").click(function(){
     $("body").addClass("red");
+    $("body").removeClass("grey");
+    $("body").removeClass("blue");
     $("h1").css("color", "#800000");
     $("h2").css("color", "#800000");
     $(this).css("color", "#800000");
