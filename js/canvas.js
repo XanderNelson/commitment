@@ -57,8 +57,9 @@ $(document).ready(function(){
     $("h1").css("color", "#800000");
     $("h2").css("color", "#800000");
     $(this).css("color", "#800000");
-    $("body").addClass("move");
+    // $("body").addClass("move");
     // window.interval;
+    window.setInterval(switchBack, 800);
   });
   $("#blue").click(function(){
     $("h1").css("color", "blue");
