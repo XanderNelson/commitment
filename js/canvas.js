@@ -59,12 +59,13 @@ $(document).ready(function(){
     $(this).css("color", "#800000");
     // $("body").addClass("move");
     // window.interval;
-    window.setInterval(switchBack, 800);
+    interval = setInterval(switchBack, 800);
   });
   $("#blue").click(function(){
     $("h1").css("color", "blue");
     $("h2").css("color", "#800000");
     $(this).css("color", "blue");
+    clearInterval(interval);
   });
 
 });
