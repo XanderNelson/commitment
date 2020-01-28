@@ -45,5 +45,14 @@ $(document).ready(function(){
   $("#triTen").click(function(){
     $("#triTen").toggleClass("ten");
   });
+  $("#grey").click(function(){
+
+  });
+  $("#red").click(function(){
+
+  });
+  $("#blue").click(function(){
+
+  });
 
 });
