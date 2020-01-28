@@ -49,6 +49,7 @@ $(document).ready(function(){
     $("h1").css("color", "black");
     $("h2").css("color", "#800000");
     $(this).css("color", "black");
+    $("body").removeClass("move");
   });
   $("#red").click(function(){
     $("h1").css("color", "#800000");
