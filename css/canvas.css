@@ -18,7 +18,7 @@ body{
 .blueBod{
   background-color:blue;
 }
-.moveRed{
+.move{
   background-color:#800000;
   background-image: -webkit-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
   background-image: -o-linear-gradient(left, transparent 50%, rgba(255,255,255,.5) 50%);
