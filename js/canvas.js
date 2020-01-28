@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  // window.setInterval(switchBack, 800);
+  window.setInterval(switchBack, 800);
 
 
   function switchBack(){
