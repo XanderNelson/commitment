@@ -47,14 +47,19 @@ $(document).ready(function(){
   });
   $("#grey").click(function(){
     $("h1").css("color", "black");
+    $("h2").css("color", "#800000");
     $(this).css("color", "black");
+
   });
   $("#red").click(function(){
     $("h1").css("color", "#800000");
+    $("h2").css("color", "#800000");
     $(this).css("color", "#800000");
   });
   $("#blue").click(function(){
     $("h1").css("color", "blue");
+    $("h2").css("color", "#800000");
+    $(this).css("color", "blue");
   });
 
 });
