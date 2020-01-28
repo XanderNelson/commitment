@@ -42,4 +42,7 @@ $(document).ready(function(){
   $("#triNine").click(function(){
     $("#triNine").toggleClass("nine");
   });
+  $("#triTen").click(function(){
+    $("#triTen").toggleClass("ten");
+  });
 });
