@@ -63,7 +63,7 @@ h2{
   font-weight: 900;
   opacity: .3;
 }
-.grey{
+/* .grey{
   color: black;
 }
 .red{
@@ -71,7 +71,7 @@ h2{
 }
 .blue{
   color: blue;
-}
+} */
 #colors{
   padding-top: 175px;
   margin:0 auto;

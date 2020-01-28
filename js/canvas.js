@@ -46,13 +46,13 @@ $(document).ready(function(){
     $("#triTen").toggleClass("ten");
   });
   $("#grey").click(function(){
-    $("h1").toggleClass("grey");
+    $("h1").css("color", "black");
   });
   $("#red").click(function(){
-    $("h1").toggleClass("red");
+    $("h1").css("color", "#800000");
   });
   $("#blue").click(function(){
-    $("h1").toggleClass("blue");
+    $("h1").css("color", "blue");
   });
 
 });
