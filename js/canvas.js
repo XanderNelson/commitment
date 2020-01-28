@@ -50,6 +50,8 @@ $(document).ready(function(){
   $("#grey").click(function(){
     $(".triDown").addClass("greenTriDown");
     $(".triUp").addClass("greenTri");
+    $(".triDown").removeClass("greenPinkDown");
+    $(".triUp").removeClass("greenPink");
     $("body").addClass("grey");
     $("body").removeClass("red");
     $("body").removeClass("blue");
@@ -62,6 +64,8 @@ $(document).ready(function(){
   $("#red").click(function(){
     $(".triDown").removeClass("greenTriDown");
     $(".triUp").removeClass("greenTri");
+    $(".triDown").removeClass("greenPinkDown");
+    $(".triUp").removeClass("greenPink");
     $("body").addClass("red");
     $("body").removeClass("grey");
     $("body").removeClass("blue");
