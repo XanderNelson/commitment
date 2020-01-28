@@ -63,15 +63,15 @@ h2{
   font-weight: 900;
   opacity: .3;
 }
-/* .grey{
-  color: black;
+.grey{
+  background-color: black;
 }
-.red{
+/* .red{
   color:#800000;
-}
-.blue{
-  color: blue;
 } */
+.blue{
+  background-color: blue;
+}
 #colors{
   padding-top: 175px;
   margin:0 auto;
