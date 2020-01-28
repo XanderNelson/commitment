@@ -160,5 +160,8 @@ h2{
   padding-bottom: 150px;
 }
 .greenTri{
-  
+  border-bottom: 100px solid green;
+}
+.greenTriDown{
+  border-top: 100px solid green;
 }
