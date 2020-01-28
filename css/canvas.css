@@ -165,3 +165,9 @@ h2{
 .greenTriDown{
   border-top: 100px solid green;
 }
+.greenPink{
+  border-bottom: 100px solid #ff66cc;
+}
+.greenPinkDown{
+  border-top: 100px solid #ff66cc;
+}

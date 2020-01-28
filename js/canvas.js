@@ -60,8 +60,8 @@ $(document).ready(function(){
     clearInterval(interval);
   });
   $("#red").click(function(){
-    $("#triOne").removeClass("greenTriDown");
-    $("#triEleven").removeClass("greenTri");
+    $(".triDown").removeClass("greenTriDown");
+    $(".triUp").removeClass("greenTri");
     $("body").addClass("red");
     $("body").removeClass("grey");
     $("body").removeClass("blue");
@@ -71,8 +71,8 @@ $(document).ready(function(){
     interval = setInterval(switchBack, 800);
   });
   $("#blue").click(function(){
-    $("#triOne").removeClass("greenTriDown");
-    $("#triEleven").removeClass("greenTri");
+    $(".triDown").removeClass("greenTriDown");
+    $(".triUp").removeClass("greenTri");
     $("body").addClass("blue");
     $("body").removeClass("grey");
     $("body").removeClass("red");
