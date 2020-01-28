@@ -47,9 +47,11 @@ $(document).ready(function(){
   });
   $("#grey").click(function(){
     $("h1").css("color", "black");
+    $(this).css("color", "black");
   });
   $("#red").click(function(){
     $("h1").css("color", "#800000");
+    $(this).css("color", "#800000");
   });
   $("#blue").click(function(){
     $("h1").css("color", "blue");
