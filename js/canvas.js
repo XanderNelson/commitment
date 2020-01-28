@@ -48,6 +48,8 @@ $(document).ready(function(){
     $("#triTen").toggleClass("ten");
   });
   $("#grey").click(function(){
+    $("#grey").css("color", "green");
+    $("#red").css("color", "green");
     $(".triDown").addClass("greenTriDown");
     $(".triUp").addClass("greenTri");
     $(".triDown").removeClass("greenPinkDown");
@@ -70,7 +72,7 @@ $(document).ready(function(){
     $("body").removeClass("grey");
     $("body").removeClass("blue");
     $("h1").css("color", "#800000");
-    $("h2").css("color", "#800000");
+    // $("h2").css("color", "#800000");
     $(this).css("color", "#800000");
     interval = setInterval(switchBack, 800);
   });
