@@ -126,6 +126,9 @@ h2{
 .size{
   border-bottom: 300px solid #800000;
 }
+#seven{
+  z-index: 3!important;
+}
 .flash{
   /* border-top: 100px solid transparent; */
   width: 200px;
