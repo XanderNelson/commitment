@@ -73,6 +73,8 @@ $(document).ready(function(){
   $("#blue").click(function(){
     $(".triDown").removeClass("greenTriDown");
     $(".triUp").removeClass("greenTri");
+    $(".triDown").addClass("greenPinkDown");
+    $(".triUp").addClass("greenPink");
     $("body").addClass("blue");
     $("body").removeClass("grey");
     $("body").removeClass("red");
