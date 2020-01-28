@@ -66,9 +66,9 @@ h2{
 .grey{
   background-color: black;
 }
-/* .red{
-  color:#800000;
-} */
+.red{
+  background-color:#800000;
+}
 .blue{
   background-color: blue;
 }
