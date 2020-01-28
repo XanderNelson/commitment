@@ -68,6 +68,8 @@ $(document).ready(function(){
   });
   $("#blue").click(function(){
     $("body").addClass("blue");
+    $("body").removeClass("grey");
+    $("body").removeClass("red");
     $("body").removeClass("move");
     $("h1").css("color", "blue");
     $("h2").css("color", "#800000");
