@@ -15,8 +15,8 @@ $(document).ready(function(){
   //   }
   // }
 
-  $("#triOne").click(function(){
-    $("#triOne").toggleClass("color");
+  $("#triOne, #triEleven").click(function(){
+    $(this).toggleClass("color");
   });
   $("#triTwo").click(function(){
     $("#triTwo").toggleClass("opac");
@@ -45,4 +45,5 @@ $(document).ready(function(){
   $("#triTen").click(function(){
     $("#triTen").toggleClass("ten");
   });
+
 });
