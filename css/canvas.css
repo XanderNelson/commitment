@@ -8,7 +8,15 @@ body{
 
   background-size: 5px 10px;
   transition: .2s;
-
+}
+.greyBod{
+  background-color:black;
+}
+.redBod{
+  background-color:#800000;
+}
+.blueBod{
+  background-color:blue;
 }
 .move{
   background-color:#800000;
@@ -53,7 +61,6 @@ h2{
   padding-top: 30px;
 }
 #triangles{
-  padding-top: -5%;
   display:table;
   margin:0 auto;
 }
