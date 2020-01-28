@@ -101,8 +101,8 @@ h1{
 }
 .nine{
   border-bottom: 100px solid #800000;
-  border-right: 50px solid red;
-  border-left: 50px solid red;
+  border-right: 50px dotted red;
+  border-left: 50px dotted red;
 
   width: 100px;
   height: 600px;
