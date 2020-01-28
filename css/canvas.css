@@ -30,7 +30,6 @@ h1{
   transition: .2s;
 }
 h2{
-  /* padding-top: */
   padding-left: 2%;
   padding-right: 2%;
   display: inline;
@@ -41,7 +40,8 @@ h2{
   font-weight: 900;
   opacity: .3;
 }
-#colors h2{
+#colors{
+  padding-top: 150px;
   margin:0 auto;
 }
 #mainHeader{
